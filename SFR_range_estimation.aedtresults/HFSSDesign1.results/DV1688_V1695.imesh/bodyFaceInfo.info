@@ -1,0 +1,11 @@
+$begin 'DesignData'
+	$begin 'PartsInfo'
+		Part(30, true, 'Sphere1', false, 'pec', 1, 31, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(31, 30, 0.0113097, 0, false, 0, 0, 0, -10, -10, -10, 0)
+	$end 'FacesInfo'
+	$begin 'LayoutComp'
+		IDToNameMap()
+	$end 'LayoutComp'
+$end 'DesignData'

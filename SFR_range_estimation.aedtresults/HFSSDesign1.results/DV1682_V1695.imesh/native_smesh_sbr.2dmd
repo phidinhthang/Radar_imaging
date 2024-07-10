@@ -1,0 +1,35 @@
+'<header>'
+   file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
+   mesh_file_checksum 'npts=1742; nedges= 5220; nelem= 3480; nfacets= 1  3480'
+'</header>'
+'<model>'
+   modelname defn_native_smesh_sbr
+   user_unit_name mm
+   unit_conv 1000
+   nbodies 1
+   facet_face_map_size 1
+   '<body>'
+      bodyid 30
+      bodyname Sphere1
+      sheet_body 0
+      nfaces 1
+      nedges 0
+      nmodelverts 0
+      '<face>'
+         face_id 31
+         ncofacets 1
+         '<cofacet>'
+            facet_id 0
+            order 0
+         '</cofacet>'
+      '</face>'
+      '<vertices>'
+      '</vertices>'
+   '</body>'
+   '<facet_face_map>'
+      '<entry>'
+         facet_id 0
+         face_id 31
+      '</entry>'
+   '</facet_face_map>'
+'</model>'

@@ -1,0 +1,7 @@
+$begin 'CacheDataVersion'
+	DataVersion=44
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	ny='1'
+	dy='ny * 0.1'
+$end 'VariableValues'

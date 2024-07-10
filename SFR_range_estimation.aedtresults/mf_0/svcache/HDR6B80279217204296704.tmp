@@ -1,0 +1,96 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=2
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(Rx_p1,Rx_p1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(Rx_p1,Tx_p1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=23
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=25
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=1695
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'-0.5\' ny=\'-5\''
+							MinorCacheFile='min336818388172054568561.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'-0.40000000000000002\' ny=\'-4\''
+							MinorCacheFile='min33B318388172054570865.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'-0.30000000000000004\' ny=\'-3\''
+							MinorCacheFile='min33F818388172054572968.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'-0.20000000000000001\' ny=\'-2\''
+							MinorCacheFile='min344018388172054575171.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'-0.10000000000000001\' ny=\'-1\''
+							MinorCacheFile='min348B18388172054577474.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0\' ny=\'0\''
+							MinorCacheFile='min34D318388172054579677.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0.10000000000000001\' ny=\'1\''
+							MinorCacheFile='min351B18388172054581881.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0.20000000000000001\' ny=\'2\''
+							MinorCacheFile='min356318388172054584084.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0.30000000000000004\' ny=\'3\''
+							MinorCacheFile='min35AA18388172054586287.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0.40000000000000002\' ny=\'4\''
+							MinorCacheFile='min35F218388172054588490.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dy=\'0.5\' ny=\'5\''
+							MinorCacheFile='min49BB18388172054743593.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=26
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=27
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=28
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

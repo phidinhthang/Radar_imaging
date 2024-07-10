@@ -1,0 +1,56 @@
+ima_version 'R2022.P1.I15'
+status assembled
+assembly_unitname mm
+assembly_unitconv 1000
+ncavities 1
+   cavid 0
+   bid 0
+   meshid 0
+   nfacets 0
+  
+ncontacts 0
+  
+nmesh 1
+   meshname native_smesh_sbr
+   meshdata 2 0 2 -1
+   mesh_unitname mm
+   mesh_unitconv 1000
+   mesh_cmdlines 0
+   domain_name Native_SBR
+   init_mesh_mode 0
+   port_list 0
+   blackbox_list 0
+   envelop_face_mapping 0
+   num_interface_ports 0
+   idmap 0
+      idmap_values 0
+   def2asmtransf CTrans3D
+      affine_row0 1 0 0
+      affine_row1 0 1 0
+      affine_row2 0 0 1
+      translation 0 0 0
+      bbox_ll 0.46999999999 -0.03000000001 -0.03000000001
+      bbox_ur 0.53000000001 0.03000000001 0.03000000001
+      mesh_group_id -1
+   auto_bkbody 0
+      auto_bkbody_values 0
+  
+bodyid_2_meshid_map 1
+   bodyid_array 1 30
+   meshid_array 1 2
+ft_to_fa_mmap 4 2 0 2 31
+fa_to_bd_map 2 31 30
+  
+nedgecontactsets 0
+  
+npseudofacets 0
+use_assembly_g3dmodel 1
+conformal_level fully_conformal
+  
+num_envelop_bodies 0
+  
+n_nccontacts 0
+  
+num_autobox_bodies 0
+  
+  
