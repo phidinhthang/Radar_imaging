@@ -30,4 +30,4 @@ for nY in range(-5, 6):
 	oProject.Save()
 	oDesign.AnalyzeAll()
 	oModule = oDesign.GetModule("ReportSetup")
-	oModule.ExportToFile("S Parameter Plot 2", "C:/Users/admin/Desktop/project/SFR_range_estimation/s21_results/setup_1_bscan/s21_bscan_ny_" + str(nY) + ".csv", False)
+	oModule.ExportToFile("S Parameter Plot 1", "C:/Users/admin/Desktop/project/SFR_range_estimation/s21_results/s11_setup_1_bscan/s11_bscan_ny_" + str(nY) + ".csv", False)
