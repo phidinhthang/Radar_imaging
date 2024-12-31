@@ -1,7 +1,7 @@
-clc;
-clear;
+clc
+clear
 
-demo = 0;
+demo = 4;
 
 if (demo == 0)
     num_points = 401;
@@ -46,11 +46,11 @@ for ntx_index = 1:length(ntx_arr)
     for nrx_index = 1:length(nrx_arr)
         ntx = ntx_arr(ntx_index);
         nrx = nrx_arr(nrx_index);
-        data = dlmread(['./demo/', folder_name, '/s21_complex_ny_', ...
-            num2str(ntx), '_nz_', num2str(nrx), '.csv'], ',', 1, 0);
+        data = readmatrix(['./demo/', folder_name, '/s21_complex_ny_', ...
+            num2str(ntx), '_nz_', num2str(nrx), '.csv']);
         s11 = data(:, 2) + 1i * data(:, 3);
         s11_3d(:, ntx_index, nrx_index) = s11;
     end
 end
 
-save('s11_3d_sar_matrix.mat', 's11_3d');
+save('s11_3d_sar_matrix', 's11_3d');

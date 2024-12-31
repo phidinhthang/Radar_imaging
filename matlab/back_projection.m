@@ -1,7 +1,7 @@
 function sbar_3d = back_projection(s11_3d, xpos, ypos, f_range, x3d, y3d, z3d)
 
 sbar_3d = zeros(size(x3d));
-c = 299792458; % Speed of light in meters per second
+c = physconst('LightSpeed');
 
 for x_index = 1:length(xpos)
     for y_index = 1:length(ypos)
